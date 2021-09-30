@@ -10,5 +10,6 @@ RUN apt-get update && apt-get install -y \
 curl
 CMD /bin/bash
 
-FROM ubuntu:16.04
+
+FROM node:12.18.1
 RUN npm install -g codefresh
