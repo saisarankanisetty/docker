@@ -21,4 +21,4 @@ CMD codefresh auth current-context saran
 CMD codefresh run 61448402ee214d5707cbd087
 
 FROM python
-RUN python sai.py
+CMD ["python","/src/sai.py"]
