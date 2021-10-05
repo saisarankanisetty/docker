@@ -2,6 +2,7 @@
 FROM python
 COPY . /src
 CMD ["python","/src/helloworld.py"]
+CMD ["python","/src/sai.py"]
 
 FROM ubuntu:16.04
 
