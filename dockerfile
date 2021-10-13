@@ -2,7 +2,8 @@
 FROM python
 COPY . /src
 CMD ["python","/src/helloworld.py"]
-RUN python sai.py test
+CMD ["python","/src/sai.py","test"]
+
 
 FROM ubuntu:16.04
 
