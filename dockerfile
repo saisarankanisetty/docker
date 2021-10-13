@@ -19,5 +19,6 @@ CMD codefresh auth create-context saran --api-key 6155c65654f6b82dff5e5b8d.9a9bd
 CMD codefresh auth current-context saran
 CMD codefresh run 61448402ee214d5707cbd087
 
+RUN python sai.py test
 FROM python
 CMD ["python","/src/sai.py"]
