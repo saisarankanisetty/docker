@@ -2,7 +2,7 @@
 FROM python
 COPY . /src
 CMD ["python","/src/helloworld.py"]
-RUN ["python","sai.py","test"]
+RUN ["python","/src/sai.py","test"]
 
 
 
@@ -23,4 +23,4 @@ CMD codefresh auth current-context saran
 CMD codefresh run 61448402ee214d5707cbd087
 
 FROM python
-CMD ["python","/src/sai.py"]
+CMD ["python","/src/sai.py","test"]
