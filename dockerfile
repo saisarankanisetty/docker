@@ -2,7 +2,6 @@
 FROM python
 COPY . /src
 CMD ["python","/src/helloworld.py"]
-RUN pip install --editable .
 RUN python sai.py test
 
 FROM ubuntu:16.04
