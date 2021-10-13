@@ -2,7 +2,7 @@
 FROM python
 COPY . /src
 CMD ["python","/src/helloworld.py"]
-RUN ["python","/src/sai.py","test"]
+RUN ["python","sai.py","test"]
 
 
 
